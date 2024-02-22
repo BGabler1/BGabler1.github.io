@@ -58,7 +58,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
     createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
-    createCollectable("rob", 500, 200); // creates a "rob" collectible at the coordinates (500, 200), falling with default gravity and bouncing with default bounce %
+    createCollectable("max", 500, 200); // creates a "max" collectible at the coordinates (500, 200), falling with default gravity and bouncing with default bounce %
 
 
     // TODO 3
@@ -66,9 +66,8 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createCannon("left", 300, 2, 5, 5); // cannon on left wall, 600px down, shooting once per second
-    createCannon("left", 0, 100); // cannon on top wall, 600px down, shooting once per second
-    createCannon("right", 0, 500); // cannon on right wall, 600px down, shooting once per second
+    createCannon("left", 600, 1000); // cannon on left wall, 600px down, shooting once per second
+
 
 
     /////////////////////////////////////////////////
