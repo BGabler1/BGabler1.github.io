@@ -58,9 +58,9 @@ var circles = []; // variable to store all circles in one Array
            
             
             // TODO 9 : Iterate over the array
-           
+        } 
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -103,7 +103,7 @@ var circles = []; // variable to store all circles in one Array
         
         app.addUpdateable(window.opspark.game);
     }
-};
+
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
