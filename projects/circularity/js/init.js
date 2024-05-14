@@ -30,10 +30,11 @@ var circles = []; // variable to store all circles in one Array
     circle = draw.randomCircleInArea( canvas, true, true, "#999", 2);
     physikz.addRandomVelocity(circle, canvas);
     view.addChild(circle);
-    circles.push(circle);}
+    circles.push(circle);
+    }
         // TODO 3 / 7 : Call the drawCircle() function 
-        var loopsCompleted = 0
-        while (loopsCompleted < 100) {
+        var loopsCompleted = 0;
+        while (loopsCompleted < 100){
             drawCircle();
             loopscompleted++;
         }
@@ -80,7 +81,7 @@ var circles = []; // variable to store all circles in one Array
             if (circle.y < 0) {
                 circle.y = canvas.height
             }
-            
+
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             
 
